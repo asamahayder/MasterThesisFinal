@@ -1,0 +1,49 @@
+{
+  "data_load": {
+    "params": {
+      "path_to_data_folder": "../Data/Ex-Vivo/"
+    }
+  },
+  "preprocessing": {
+    "params": {}
+  },
+  "feature_engineering": {
+    "params": {}
+  },
+  "model_training_and_evaluation": {
+    "params": {
+      "degree_of_polynomial": {
+        "min": 3,
+        "max": 23
+      },
+      "k_outer": 4,
+      "k_inner": 4,
+      "feature_count_threshold_inner": 2,
+      "feature_count_threshold_outer": 2,
+      "n_estimators": {
+        "min": 50,
+        "max": 400
+      },
+      "max_depth": {
+        "min": 5,
+        "max": 30
+      },
+      "min_samples_split": {
+        "min": 2,
+        "max": 10
+      },
+      "min_samples_leaf": {
+        "min": 1,
+        "max": 10
+      },
+      "bootstrap": [
+        true
+      ],
+      "criterion": [
+        "gini",
+        "entropy"
+      ],
+      "optuna_n_trials": 30
+    }
+  }
+}

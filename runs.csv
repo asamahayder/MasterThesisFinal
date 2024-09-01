@@ -1,0 +1,114 @@
+Index,Name,balanced_test_accuracy,balanced_train_accuracy,f1,precision,recall,sensitivity,specificity,roc_auc,std_balanced_test_accuracy,algorithm,domain
+0,LR fft,0.583,1.0,0.539,0.608,0.492,0.577,0.611,0.568,0.042,Logistic Regression,Frequency Domain
+1,RF fft,0.542,1.0,0.521,0.622,0.508,0.522,0.524,0.384,0.208,Random Forest,Frequency Domain
+2,SVM fft,,,,,,,,,,Support Vector Machine,Frequency Domain
+3,KNN fft,0.362,0.698,0.117,0.175,0.092,0.412,0.2,0.231,0.148,K Nearest Neighbors,Frequency Domain
+4,LR fft + standardization,0.608,1.0,0.581,0.629,0.542,0.6,0.632,0.56,0.073,Logistic Regression,Frequency Domain
+5,RF fft + standardization,0.492,1.0,0.47,0.493,0.508,0.476,0.478,0.448,0.09,Random Forest,Frequency Domain
+6,SVM fft + standardization,0.475,0.712,0.348,0.326,0.425,0.458,0.45,0.504,0.075,Support Vector Machine,Frequency Domain
+7,KNN fft + standardization,0.362,0.847,0.333,0.346,0.325,0.375,0.35,0.272,0.088,K Nearest Neighbors,Frequency Domain
+8,LR fft + normalization,0.554,0.875,0.57,0.555,0.642,0.556,0.538,0.531,0.049,Logistic Regression,Frequency Domain
+9,RF fft + normalization,0.421,1.0,0.346,0.421,0.325,0.423,0.389,0.446,0.08,Random Forest,Frequency Domain
+10,SVM fft + normalization,,,,,,,,,,Support Vector Machine,Frequency Domain
+11,KNN fft + normalization,0.517,0.811,0.393,0.528,0.383,0.5,0.5,0.532,0.142,K Nearest Neighbors,Frequency Domain
+12,LR fft + normalization + standardization,,,,,,,,,,Logistic Regression,Frequency Domain
+13,RF fft + normalization + standardization,0.421,1.0,0.346,0.421,0.325,0.423,0.389,0.446,0.08,Random Forest,Frequency Domain
+14,SVM fft + normalization + standardization,,,,,,,,,,Support Vector Machine,Frequency Domain
+15,KNN fft + normalization + standardization,0.517,0.811,0.393,0.528,0.383,0.5,0.5,0.532,0.142,K Nearest Neighbors,Frequency Domain
+16,LR fft + standardization + tukey,0.412,0.651,0.165,0.144,0.2,0.419,0.308,0.357,0.097,Logistic Regression,Frequency Domain
+17,RF fft + standardization + tukey,0.392,1.0,0.332,0.342,0.325,0.4,0.368,0.446,0.202,Random Forest,Frequency Domain
+18,SVM fft + standardization + tukey,,,,,,,,,,Support Vector Machine,Frequency Domain
+19,KNN fft + standardization + tukey,0.408,0.871,0.346,0.33,0.367,0.417,0.4,0.438,0.144,K Nearest Neighbors,Frequency Domain
+20,LR fft + standardization + tukey + ref divided,0.471,0.891,0.365,0.392,0.383,0.462,0.444,0.452,0.11,Logistic Regression,Frequency Domain
+21,RF fft + standardization + tukey + ref divided,0.471,1.0,0.475,0.455,0.5,0.476,0.478,0.498,0.18,Random Forest,Frequency Domain
+22,SVM fft + standardization + tukey + ref divided,0.442,0.648,0.218,0.267,0.192,0.455,0.364,0.556,0.042,Support Vector Machine,Frequency Domain
+23,KNN fft + standardization + tukey + ref divided,0.342,0.855,0.323,0.338,0.325,0.348,0.333,0.325,0.106,K Nearest Neighbors,Frequency Domain
+24,LR fft + standardization + tukey + ref divided + bare divided,0.471,1.0,0.46,0.441,0.525,0.45,0.458,0.473,0.13,Logistic Regression,Frequency Domain
+25,RF fft + standardization + tukey + ref divided + bare divided,0.475,1.0,0.472,0.5,0.517,0.45,0.458,0.45,0.109,Random Forest,Frequency Domain
+26,SVM fft + standardization + tukey + ref divided + bare divided,0.567,0.854,0.342,0.329,0.358,0.548,0.615,0.614,0.116,Support Vector Machine,Frequency Domain
+27,KNN fft + standardization + tukey + ref divided + bare divided,0.596,1.0,0.444,0.483,0.417,0.567,0.643,0.556,0.182,K Nearest Neighbors,Frequency Domain
+28,LR fft + cut + standardization + tukey + ref divided + bare divided,0.483,0.605,0.245,0.225,0.283,0.484,0.462,0.449,0.073,Logistic Regression,Frequency Domain
+29,RF fft + cut + standardization + tukey + ref divided + bare divided,0.421,0.832,0.457,0.44,0.508,0.389,0.423,0.362,0.07,Random Forest,Frequency Domain
+30,SVM fft + cut + standardization + tukey + ref divided + bare divided,0.421,0.708,0.269,0.277,0.283,0.429,0.375,0.574,0.052,Support Vector Machine,Frequency Domain
+31,KNN fft + cut + standardization + tukey + ref divided + bare divided,0.408,0.756,0.271,0.315,0.275,0.429,0.375,0.432,0.085,K Nearest Neighbors,Frequency Domain
+32,LR fft + cut + standardization + tukey + ref divided + bare divided + pca,0.462,1.0,0.377,0.458,0.35,0.481,0.471,0.448,0.034,Logistic Regression,Frequency Domain
+33,RF fft + cut + standardization + tukey + ref divided + bare divided + pca,0.388,0.939,0.227,0.308,0.192,0.419,0.308,0.349,0.118,Random Forest,Frequency Domain
+34,SVM fft + cut + standardization + tukey + ref divided + bare divided + pca,,,,,,,,,,Support Vector Machine,Frequency Domain
+35,KNN fft + cut + standardization + tukey + ref divided + bare divided + pca,0.508,1.0,0.499,0.589,0.5,0.5,0.5,0.421,0.14,K Nearest Neighbors,Frequency Domain
+36,LR fft + standardization + 100% data (44 samples),0.608,1.0,0.581,0.629,0.542,0.6,0.632,0.56,0.073,Logistic Regression,Frequency Domain
+37,LR fft + standardization + 25% data,0.375,1.0,0.0,0.0,0.0,0.444,0.0,0.4,0.217,Logistic Regression,Frequency Domain
+38,LR fft + standardization + 50% data,0.542,1.0,0.439,0.396,0.5,0.583,0.5,0.367,0.191,Logistic Regression,Frequency Domain
+39,LR fft + standardization + 75% data,0.456,0.875,0.277,0.312,0.25,0.478,0.4,0.404,0.267,Logistic Regression,Frequency Domain
+40,LR fft + standardization + 100% data,0.608,1.0,0.581,0.629,0.542,0.6,0.632,0.56,0.073,Logistic Regression,Frequency Domain
+41,LR data augmentation: time shifts -5 to 5,0.354,0.804,0.328,0.372,0.325,0.348,0.333,0.347,0.123,Logistic Regression,Frequency Domain
+42,LR data augmentation: time shifts -1 to 1,0.383,0.729,0.261,0.26,0.283,0.385,0.333,0.372,0.123,Logistic Regression,Frequency Domain
+43,LR data augmentation: all forward scans + time shift,0.428,0.926,0.422,0.431,0.42,0.426,0.424,0.43,0.072,Logistic Regression,Frequency Domain
+44,LR data augmentation: all forward scans + NO timeshift,0.533,0.941,0.51,0.518,0.521,0.536,0.537,0.488,0.142,Logistic Regression,Frequency Domain
+45,LR data augmentation: all forward scans but only applied to training data,0.496,0.964,0.47,0.518,0.45,0.5,0.5,0.479,0.092,Logistic Regression,Frequency Domain
+46,LR data augmentation: pairwise averaging,0.458,0.935,0.448,0.458,0.45,0.455,0.455,0.477,0.109,Logistic Regression,Frequency Domain
+47,LR data augmentation: using only subsets (see log),0.608,1.0,0.581,0.629,0.542,0.6,0.632,0.56,0.073,Logistic Regression,Frequency Domain
+48,LR Simple run,0.421,0.783,0.25,0.275,0.233,0.433,0.357,0.36,0.091,Logistic Regression,Time Domain
+49,RF Simple run,0.433,0.908,0.485,0.445,0.542,0.412,0.444,0.395,0.066,Random Forest,Time Domain
+50,SVM Simple run,0.5,0.5,0.312,0.227,0.5,0.455,0.455,0.587,0.0,Support Vector Machine,Time Domain
+51,KNN Simple run,0.458,0.725,0.201,0.438,0.142,0.472,0.375,0.384,0.095,K Nearest Neighbors,Time Domain
+52,LR subtracting ref,0.554,0.916,0.545,0.575,0.55,0.545,0.545,0.502,0.176,Logistic Regression,Time Domain
+53,KNN subtracting ref,0.371,0.717,0.111,0.125,0.1,0.412,0.2,0.319,0.108,K Nearest Neighbors,Time Domain
+54,RF subtracting ref,0.404,0.985,0.458,0.423,0.5,0.389,0.423,0.339,0.155,Random Forest,Time Domain
+55,SVM subtracting ref,0.288,0.617,0.386,0.318,0.525,0.083,0.344,0.335,0.133,Support Vector Machine,Time Domain
+56,LR standardized,0.375,0.83,0.2,0.213,0.192,0.4,0.286,0.326,0.102,Logistic Regression,Time Domain
+57,RF standardized,0.433,0.915,0.461,0.433,0.5,0.421,0.44,0.411,0.071,Random Forest,Time Domain
+58,SVM standardized,0.379,0.754,0.272,0.246,0.333,0.375,0.35,0.661,0.084,Support Vector Machine,Time Domain
+59,KNN standardized,0.533,0.638,0.367,0.75,0.267,0.529,0.6,0.488,0.067,K Nearest Neighbors,Time Domain
+60,LR normalized,0.442,0.625,0.206,0.164,0.3,0.429,0.375,0.355,0.101,Logistic Regression,Time Domain
+61,RF normalized,0.525,0.88,0.491,0.525,0.467,0.52,0.526,0.5,0.114,Random Forest,Time Domain
+62,SVM normalized,0.462,0.618,0.212,0.176,0.3,0.448,0.4,0.564,0.065,Support Vector Machine,Time Domain
+63,KNN normalized,0.562,0.719,0.403,0.567,0.392,0.533,0.571,0.53,0.161,K Nearest Neighbors,Time Domain
+64,LR standardized + normalized,0.467,0.602,0.247,0.197,0.35,0.444,0.412,0.407,0.058,Logistic Regression,Time Domain
+65,RF standardized + normalized,0.525,0.88,0.491,0.525,0.467,0.52,0.526,0.5,0.114,Random Forest,Time Domain
+66,SVM standardized + normalized,0.462,0.618,0.212,0.176,0.3,0.448,0.4,0.564,0.065,Support Vector Machine,Time Domain
+67,KNN standardized + normalized,0.562,0.719,0.403,0.567,0.392,0.533,0.571,0.53,0.161,K Nearest Neighbors,Time Domain
+68,LR standardized + normalized + ref subtracted,0.45,0.541,0.312,0.227,0.5,0.4,0.417,0.372,0.087,Logistic Regression,Time Domain
+69,RF standardized + normalized + ref subtracted,0.492,0.947,0.42,0.381,0.483,0.478,0.476,0.533,0.175,Random Forest,Time Domain
+70,SVM standardized + normalized + ref subtracted,0.608,0.601,0.522,0.61,0.483,0.593,0.647,0.473,0.196,Support Vector Machine,Time Domain
+71,KNN standardized + normalized + ref subtracted,0.413,0.767,0.192,0.208,0.192,0.438,0.333,0.415,0.09,K Nearest Neighbors,Time Domain
+72,LR standardized + normalized + ref subtracted + bare subtracted,0.433,0.658,0.231,0.201,0.275,0.448,0.4,0.379,0.068,Logistic Regression,Time Domain
+73,RF standardized + normalized + ref subtracted + bare subtracted,0.538,0.763,0.508,0.552,0.517,0.522,0.524,0.438,0.13,Random Forest,Time Domain
+74,SVM standardized + normalized + ref subtracted + bare subtracted,0.504,0.811,0.527,0.519,0.55,0.5,0.5,0.533,0.095,Support Vector Machine,Time Domain
+75,KNN standardized + normalized + ref subtracted + bare subtracted,0.571,0.864,0.605,0.556,0.683,0.588,0.556,0.525,0.027,K Nearest Neighbors,Time Domain
+76,LR cut + standardized + normalized + ref subtracted + bare subtracted,0.421,0.792,0.282,0.283,0.283,0.429,0.375,0.397,0.057,Logistic Regression,Time Domain
+77,RF cut + standardized + normalized + ref subtracted + bare subtracted,0.446,0.795,0.403,0.406,0.433,0.435,0.429,0.397,0.171,Random Forest,Time Domain
+78,SVM cut + standardized + normalized + ref subtracted + bare subtracted,0.454,0.741,0.441,0.431,0.525,0.421,0.44,0.362,0.136,Support Vector Machine,Time Domain
+79,KNN cut + standardized + normalized + ref subtracted + bare subtracted,0.442,0.931,0.508,0.455,0.6,0.4,0.448,0.483,0.036,K Nearest Neighbors,Time Domain
+80,LR polyfit + NO cut + standardized + normalized + ref subtracted + bare subtracted,0.483,0.538,0.332,0.344,0.392,0.462,0.444,0.461,0.066,Logistic Regression,Time Domain
+81,RF polyfit + NO cut + standardized + normalized + ref subtracted + bare subtracted,0.467,0.683,0.414,0.469,0.417,0.458,0.45,0.451,0.06,Random Forest,Time Domain
+82,SVM polyfit + NO cut + standardized + normalized + ref subtracted + bare subtracted,0.483,0.569,0.428,0.447,0.533,0.45,0.458,0.471,0.066,Support Vector Machine,Time Domain
+83,KNN polyfit + NO cut + standardized + normalized + ref subtracted + bare subtracted,0.496,0.782,0.341,0.375,0.358,0.5,0.5,0.525,0.025,K Nearest Neighbors,Time Domain
+84,LR polyfit + cut + standardized + normalized + ref subtracted + bare subtracted,0.483,0.538,0.332,0.344,0.392,0.462,0.444,0.461,0.066,Logistic Regression,Time Domain
+85,RF polyfit + cut + standardized + normalized + ref subtracted + bare subtracted,0.529,0.855,0.572,0.529,0.642,0.529,0.519,0.523,0.095,Random Forest,Time Domain
+86,SVM polyfit + cut + standardized + normalized + ref subtracted + bare subtracted,0.513,0.562,0.433,0.6,0.533,0.476,0.478,0.498,0.041,Support Vector Machine,Time Domain
+87,KNN polyfit + cut + standardized + normalized + ref subtracted + bare subtracted,0.567,0.899,0.496,0.653,0.525,0.542,0.55,0.575,0.106,K Nearest Neighbors,Time Domain
+88,LR polyfit + alignment + NO cut + standardized + normalized + ref subtracted + bare subtracted,0.483,0.538,0.332,0.344,0.392,0.462,0.444,0.461,0.066,Logistic Regression,Time Domain
+89,RF polyfit + alignment + NO cut + standardized + normalized + ref subtracted + bare subtracted,0.538,0.702,0.513,0.619,0.508,0.522,0.524,0.533,0.101,Random Forest,Time Domain
+90,SVM polyfit + alignment + NO cut + standardized + normalized + ref subtracted + bare subtracted,0.483,0.569,0.428,0.447,0.533,0.45,0.458,0.473,0.066,Support Vector Machine,Time Domain
+91,KNN polyfit + alignment + NO cut + standardized + normalized + ref subtracted + bare subtracted,0.521,0.782,0.425,0.625,0.408,0.519,0.529,0.52,0.052,K Nearest Neighbors,Time Domain
+92,LR polyfit + alignment + cut + standardized + normalized + ref subtracted + bare subtracted,0.483,0.538,0.332,0.344,0.392,0.462,0.444,0.463,0.066,Logistic Regression,Time Domain
+93,RF polyfit + alignment + cut + standardized + normalized + ref subtracted + bare subtracted,0.479,0.733,0.448,0.572,0.525,0.45,0.458,0.465,0.077,Random Forest,Time Domain
+94,SVM polyfit + alignment + cut + standardized + normalized + ref subtracted + bare subtracted,0.467,0.59,0.334,0.332,0.442,0.435,0.429,0.53,0.049,Support Vector Machine,Time Domain
+95,KNN polyfit + alignment + cut + standardized + normalized + ref subtracted + bare subtracted,0.521,0.727,0.387,0.513,0.408,0.519,0.529,0.491,0.091,K Nearest Neighbors,Time Domain
+96,LR polyfit + alignment + cut + standardized + normalized + ref subtracted + bare divided,0.479,0.57,0.355,0.375,0.383,0.462,0.444,0.407,0.106,Logistic Regression,Time Domain
+97,RF polyfit + alignment + cut + standardized + normalized + ref subtracted + bare divided,0.558,0.779,0.514,0.643,0.55,0.545,0.545,0.495,0.103,Random Forest,Time Domain
+98,SVM polyfit + alignment + cut + standardized + normalized + ref subtracted + bare divided,,,,,,,,,,Support Vector Machine,Time Domain
+99,KNN polyfit + alignment + cut + standardized + normalized + ref subtracted + bare divided,0.446,0.869,0.392,0.436,0.417,0.435,0.429,0.432,0.107,K Nearest Neighbors,Time Domain
+100,LR all forward + polyfit + alignment + cut + standardized + normalized + ref subtracted + bare subtracted,0.467,0.521,0.114,0.091,0.15,0.469,0.366,0.421,0.058,Logistic Regression,Time Domain
+101,RF all forward + polyfit + alignment + cut + standardized + normalized + ref subtracted + bare subtracted,0.46,0.844,0.479,0.466,0.518,0.449,0.459,0.438,0.059,Random Forest,Time Domain
+102,SVM all forward + polyfit + alignment + cut + standardized + normalized + ref subtracted + bare subtracted,0.54,0.574,0.44,0.404,0.536,0.514,0.514,0.493,0.04,Support Vector Machine,Time Domain
+103,KNN all forward + polyfit + alignment + cut + standardized + normalized + ref subtracted + bare subtracted,0.51,0.927,0.508,0.524,0.501,0.516,0.516,0.508,0.067,K Nearest Neighbors,Time Domain
+104,SVM standardized + normalized + ref subtracted,0.608,0.601,0.522,0.61,0.483,0.593,0.647,0.473,0.196,Support Vector Machine,Time Domain
+105,SVM data augmentation: time shift -1 to 1,0.6,0.721,0.629,0.564,0.733,0.625,0.571,0.471,0.191,Support Vector Machine,Time Domain
+106,SVM data augmentation: time shift -5 to 5,0.4,0.741,0.329,0.29,0.392,0.391,0.381,0.308,0.212,Support Vector Machine,Time Domain
+107,SVM data augmentation: all forward scans only for training data,,,,,,,,,,Support Vector Machine,Time Domain
+108,SVM data augmentation: 3 forward scans only for training data,0.529,0.742,0.467,0.51,0.475,0.52,0.526,0.621,0.174,Support Vector Machine,Time Domain
+109,SVM data augmentation: 6 forward scans only for training data,,,,,,,,,,Support Vector Machine,Time Domain
+110,SVM data augmentation: averaging (but only 3 pairs),0.525,0.827,0.333,0.312,0.4,0.5,0.5,0.5,0.134,Support Vector Machine,Time Domain
+111,SVM data augmentation: using only subsets (see log),0.608,0.601,0.522,0.61,0.483,0.593,0.647,0.473,0.196,Support Vector Machine,Time Domain
+112,SVM feature extraction: PCA,0.483,0.703,0.372,0.442,0.333,0.483,0.467,0.486,0.106,Support Vector Machine,Time Domain

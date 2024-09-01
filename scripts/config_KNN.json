@@ -1,0 +1,54 @@
+{
+  "data_load": {
+    "params": {
+      "path_to_data_folder": "../Data/Ex-Vivo/"
+    }
+  },
+  "preprocessing": {
+    "params": {
+      
+    }
+  },
+  "feature_engineering": {
+    "params": {
+      
+    }
+  },
+  "model_training_and_evaluation": {
+    "params": {
+      "pca_required_variance_explained": {
+        "min": 0.8,
+        "max": 0.99
+      },
+      "degree_of_polynomial": {
+        "min": 3,
+        "max": 23
+      },
+      "k_outer": 4,
+      "k_inner": 4,
+      "n_neighbors": {
+        "min": 1,
+        "max": 6
+      },
+      "weights": [
+        "uniform",
+        "distance"
+      ],
+      "algorithm": [
+        "auto",
+        "ball_tree",
+        "kd_tree",
+        "brute"
+      ],
+      "leaf_size": {
+        "min": 10,
+        "max": 50
+      },
+      "p": {
+        "min": 1,
+        "max": 2
+      },
+      "optuna_n_trials": 30
+    }
+  }
+}
